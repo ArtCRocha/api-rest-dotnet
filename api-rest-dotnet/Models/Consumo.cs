@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace api_rest_dotnet.Models
 {
-    [Table("Consymos")]
+    [Table("Consumos")]
     public class Consumo
     {
         [Key]
@@ -19,7 +19,7 @@ namespace api_rest_dotnet.Models
         [Required]
         public int VeiculoId { get; set; }
 
-        public Veiculo? Veiculo { get; set; }
+        public Veiculo Veiculo { get; set; }
     }
 
     public enum TipoCombustivel

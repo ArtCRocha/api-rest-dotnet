@@ -7,7 +7,7 @@ namespace api_rest_dotnet.Models
     public class Consumo
     {
         [Key]
-        public int Id { get; set; }
+        public int Id { get; set; } 
         [Required]
         public string Descricao { get; set; }
         [Required]

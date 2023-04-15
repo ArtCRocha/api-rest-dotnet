@@ -19,6 +19,8 @@ namespace api_rest_dotnet.Models
         [Required]
         public int AnoModelo { get; set; }
 
+        public ICollection<VeiculoUsuarios> Usuarios { get; set; }
+
 
         public ICollection<Consumo> Consumos { get; set; }  
     }
